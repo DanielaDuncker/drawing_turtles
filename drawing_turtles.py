@@ -25,7 +25,7 @@ def draw_art():
     joe = turtle.Turtle()
     joe.shape("turtle")
     joe.color("orange")
-    joe.speed(0)
+    joe.speed(1)
 
     for i in range(1, 37):
         draw_square(joe)
